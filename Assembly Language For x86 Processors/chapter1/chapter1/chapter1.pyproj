@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a2b6acd6-975b-4e54-9dd5-72d9080494b9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>prob_6.py</StartupFile>
+    <StartupFile>prob_7.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -36,6 +36,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="prob_6.py" />
+    <Compile Include="prob_7.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

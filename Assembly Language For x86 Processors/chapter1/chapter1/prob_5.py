@@ -1,4 +1,7 @@
 ﻿# coding=utf-8
+'''
+b进制加法
+'''
 import sys
 global b
 def num_to_btype(num, b):

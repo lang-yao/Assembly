@@ -1,8 +1,11 @@
 # coding="utf-8"
+'''
+十六进制转十进制
+'''
 import math
 import sys
 def prob_2():
-    str_bin = input("binary str: ")
+    str_bin = input("hex str: ")
     str_bin = str_bin[::-1][:32]
     number = 0
     hex = {    

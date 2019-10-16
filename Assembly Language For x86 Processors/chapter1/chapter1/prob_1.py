@@ -1,4 +1,7 @@
 # coding="utf-8"
+'''
+二进制转十进制
+'''
 import math
 import sys
 def prob_1():

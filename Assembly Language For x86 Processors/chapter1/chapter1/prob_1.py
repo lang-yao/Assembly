@@ -3,7 +3,7 @@ import math
 import sys
 def prob_1():
     str_bin = input("binary str: ")
-    str_bin = str_bin[::-1]
+    str_bin = str_bin[::-1][:16]
     number = 0
     for i,n in zip(str_bin, range(len(str_bin))):
         if i != '0':

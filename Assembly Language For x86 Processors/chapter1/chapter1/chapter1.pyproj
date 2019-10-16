@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a2b6acd6-975b-4e54-9dd5-72d9080494b9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>chapter1.py</StartupFile>
+    <StartupFile>prob_4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,15 @@
     <Compile Include="chapter1.py" />
     <Compile Include="prob_1.py">
       <SubType>Code</SubType>
+      <ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="prob_2.py" />
+    <Compile Include="prob_3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="prob_4.py">
+      <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +46,9 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="prob_5.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
